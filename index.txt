@@ -1,0 +1,49 @@
+Developer Environment Setup Documentation
+Overview:
+This document outlines the steps taken to set up the developer environment, including configurations, customizations, and troubleshooting steps.
+
+Operating System:
+OS: Windows 10 Pro
+Development Tools:
+Integrated Development Environment (IDE):
+
+IDE: Visual Studio Code (VS Code)
+Installation: Downloaded installer from official website and followed installation wizard.
+Extensions: Installed extensions for Python, JavaScript, and Git integration.
+Version Control:
+
+VCS: Git
+Installation: Installed Git via the official installer from git-scm.com.
+Configuration: Configured global settings for username and email.
+Package Manager:
+
+Package Manager: npm (Node Package Manager)
+Installation: Installed as part of Node.js installation.
+Configuration: No additional configurations required.
+Python Environment:
+
+Python Version: 3.9.5
+Installation: Downloaded Python installer from python.org and followed installation instructions.
+Virtual Environment: Created virtual environments using virtualenv package.
+Web Browser:
+
+Browser: Google Chrome
+Installation: Downloaded installer from official website and followed installation instructions.
+Terminal:
+
+Terminal: Windows Terminal
+Installation: Installed from Microsoft Store.
+Customization: Configured custom color scheme and keyboard shortcuts.
+Troubleshooting:
+Python Environment Setup:
+
+Issue: Difficulty installing Python packages in virtual environments.
+Solution: Used --user flag for installation or created virtual environment with --system-site-packages flag.
+Git Configuration:
+
+Issue: Incorrect username/email configured globally.
+Solution: Updated global settings using git config --global command.
+VS Code Extensions:
+
+Issue: Extensions not working properly or causing conflicts.
+Solution: Removed conflicting extensions or reinstalled VS Code.
